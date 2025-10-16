@@ -53,7 +53,9 @@ export async function PUT(request) {
     }
 
     return Response.json(data);
-  } catch (error) {
+  }
+  //for error
+  catch (error) {
     console.error("Update profile error:", error);
     return Response.json({ message: "Internal server error" }, { status: 500 });
   }
