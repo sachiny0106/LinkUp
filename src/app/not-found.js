@@ -52,7 +52,7 @@ export default function NotFound() {
       },
     },
   };
-
+  // for Home, users, search and others
   const suggestions = [
     {
       icon: Home,
@@ -172,7 +172,7 @@ export default function NotFound() {
               </motion.div>
             </motion.div>
 
-            {/* Right Side - Suggestions */}
+            {/* Right Side - Suggestions and other*/}
             <motion.div variants={itemVariants} className="space-y-6">
               <div className="text-center lg:text-left mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
