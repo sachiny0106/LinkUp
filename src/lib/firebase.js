@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyALBYA4f82Qo43rzYK5-ARXD084z2c2bbM",
+  apiKey: "**********************",
   authDomain: "mini-linkedin-platform.firebaseapp.com",
   projectId: "mini-linkedin-platform",
   storageBucket: "mini-linkedin-platform.firebasestorage.app",
