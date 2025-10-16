@@ -58,13 +58,13 @@
 }
 
 /* Search page specific styles */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .search-grid {
     grid-template-columns: 1fr;
   }
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
+/* same goes for this */
+@media (min-width: 767px) and (max-width: 1024px) {
   .search-grid {
     grid-template-columns: repeat(2, 1fr);
   }
